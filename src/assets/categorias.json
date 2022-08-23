@@ -1,0 +1,22 @@
+[
+
+  {
+    "id": "1", "nomecategoria": "Software"
+  },
+
+  {
+    "id": "2", "nomecategoria": "Comida"
+  },
+
+  {
+    "id": "3", "nomecategoria": "Bebida"
+  },
+
+  {
+    "id": "4", "nomecategoria": "Celulares"
+  },
+
+  {
+    "id": "5", "nomecategoria": "Computadores"
+  }
+]
