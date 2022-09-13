@@ -16,12 +16,12 @@ import { BrowserModule } from '@angular/platform-browser';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule,
+    BrowserAnimationsModule,
     MatToolbarModule,
-    MatIconModule,
-    MatButtonModule,
+    CoreModule,
     MatMenuModule,
-    BrowserAnimationsModule
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
