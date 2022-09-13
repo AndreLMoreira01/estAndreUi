@@ -7,8 +7,6 @@ import { Produto } from '../../core/model';
   styleUrls: ['./listaprodutos.component.scss']
 })
 
-
-
 export class ListaprodutosComponent implements OnInit {
 
   produtos: Produto[] = [
