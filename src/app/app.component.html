@@ -3,10 +3,10 @@
     <mat-icon>menu</mat-icon>
   </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item [routerLink]="['/produtos']" routerLinkActive="router-link-active"  >Produtos</button>
-      <button mat-menu-item [routerLink]="['/categorias']" routerLinkActive="router-link-active" >Categorias</button>
+      <button mat-menu-item routerLink="/categorias">categorias</button>
+      <button mat-menu-item routerLink="/produtos">produtos</button>
     </mat-menu>
 
-  <span>Categorias</span>
+  <span>Estoque</span>
 </mat-toolbar>
 <router-outlet></router-outlet>
